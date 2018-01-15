@@ -1,0 +1,37 @@
+{
+    "manifest_version": 2,
+    "name": "Breeze Window Controls (Minimize)",
+    "version": "1.0",
+
+    "description": "Adds close button to toolbar.",
+    "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+
+    "icons": {
+        "36": "icons/titlebutton-close@2.png"
+    },
+
+    "permissions": [
+        "theme"
+    ],
+
+    "browser_action": {
+        "browser_style": true,
+        "default_icon": {
+            "18": "icons/titlebutton-close.png",
+            "36": "icons/titlebutton-close@2.png"
+        },
+        "default_title": "Close Window"
+    },
+
+    "background": {
+        "scripts": ["src/index.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": ["*://*/*"],
+            "js": ["content/monitor.js"],
+            "match_about_blank": true,
+            "all_frames": true
+        }
+    ]
+}
