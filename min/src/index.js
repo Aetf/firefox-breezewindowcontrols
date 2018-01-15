@@ -42,7 +42,7 @@ function updateBreezeTheme(focused) {
                 headerURL: "images/sun.jpg"
             },
             colors: {
-                accentcolor: "#475057",
+                accentcolor: "#4c555d",
                 textcolor: "#FFF"
             }
         });
@@ -52,7 +52,7 @@ function updateBreezeTheme(focused) {
                 headerURL: "images/sun.jpg"
             },
             colors: {
-                accentcolor: "#EFF0F1",
+                accentcolor: "#d7d8d9",
                 textcolor: "#000"
             }
         });

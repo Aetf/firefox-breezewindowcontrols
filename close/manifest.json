@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
     "name": "Breeze Window Controls (Close)",
-    "version": "1.0",
+    "version": "1.2",
 
     "description": "Adds close button to toolbar.",
-    "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+    "homepage_url": "https://github.com/Aetf/firefox-breezewindowcontrols",
 
     "icons": {
         "36": "icons/titlebutton-close@2.png"
