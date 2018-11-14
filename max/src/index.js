@@ -39,7 +39,7 @@ function updateBreezeTheme(focused) {
     if (focused) {
         browser.theme.update({
             images: {
-                headerURL: "images/sun.jpg"
+                headerURL: "icons/bg-focused.png"
             },
             colors: {
                 accentcolor: "#4c555d",
@@ -49,7 +49,7 @@ function updateBreezeTheme(focused) {
     } else {
         browser.theme.update({
             images: {
-                headerURL: "images/sun.jpg"
+                headerURL: "icons/bg-nofocused.png"
             },
             colors: {
                 accentcolor: "#d7d8d9",
